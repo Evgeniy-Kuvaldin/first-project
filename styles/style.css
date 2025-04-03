@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   width: 1100px;
   margin: 0;
   font-family: Raleway, sans-serif;  
@@ -19,10 +20,16 @@ ul {
   font-size: 20px;
   font-style: normal;
   text-transform: none;
+=======
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  width: 1100px;
+>>>>>>> a99cd4af91d1316364d768fb379fcd76acc670c5
 }
 
 .header {
   display: grid;
+<<<<<<< HEAD
   grid-template-columns: 1fr 10% 1fr;
   align-items: center;
   height: 293px;
@@ -116,10 +123,44 @@ ul {
   border-radius: 50%;
   background-color: black;
   background-size: 240px;
+=======
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  justify-content: space-around;
+  height: 293px;
+}
+
+.header-menu-list {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  justify-self: stretch;
+}
+
+.header-menu-list-item {
+  display: inline-block;
+}
+
+.cover {
+  background-image: url(../images/lotus-flower.jpg);
+  height: 757px;
+}
+
+.title {
+  font-size: 100px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 30%;
+}
+
+.description {
+  color: #fff;
+>>>>>>> a99cd4af91d1316364d768fb379fcd76acc670c5
 }
 
 .footer {
   display: grid;
+<<<<<<< HEAD
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   align-items: start;
@@ -131,4 +172,13 @@ ul {
   width: 265px;
   list-style: none;
   white-space: inherit;
+=======
+  grid-template-columns: repeat(3, auto);
+  height: 180px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+>>>>>>> a99cd4af91d1316364d768fb379fcd76acc670c5
 }

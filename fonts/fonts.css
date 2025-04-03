@@ -2,19 +2,28 @@
   font-family: 'Raleway';
   src: url(./Raleway-Bold.ttf);
   font-weight: bold;
+<<<<<<< HEAD
   font-display: swap;
+=======
+>>>>>>> a99cd4af91d1316364d768fb379fcd76acc670c5
 }
 
 @font-face {
   font-family: 'Raleway';
   src: url(./Raleway-Medium.ttf);
   font-weight: 500;
+<<<<<<< HEAD
   font-display: swap;
+=======
+>>>>>>> a99cd4af91d1316364d768fb379fcd76acc670c5
 }
 
 @font-face {
   font-family: 'Raleway';
   src: url(./Raleway-Regular.ttf);
   font-weight: 400;
+<<<<<<< HEAD
   font-display: swap;
+=======
+>>>>>>> a99cd4af91d1316364d768fb379fcd76acc670c5
 }
