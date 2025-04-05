@@ -21,40 +21,49 @@
       <a class="header__logo-link"><img class="header__logo" src="./images/logo-black.svg" alt="Оно тебе надо"></a>
       <address class="address">
         <ul class="address__list">
-          <li><a class="address__list-link" href="+9 999 555 5555">+9 999 555 5555</a></li>
-          <li><a class="address__list-link" href="info@sobaka.ge">info@sobaka.ge</a></li>
-          <li>наб. Принсенграхт 263- 265, Амстердам</li>
+          <li><a class="address__list-link" href="tel:+9 999 555 5555">+9 999 555 5555</a></li>
+          <li><a class="address__list-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
+          <li>наб. Принсенграхт 263-<br> 265, Амстердам</li>
         </ul>
       </address>
     </header>
     <main>
-      <cover class="cover overlay">
-        <h1></h1>
-        <div class="description">
-          <p></p>
-          <button></button>
-        </div>
-      </cover>
+      <section class="cover-background">
+        <cover class="cover overlay">
+          <h1 class="title">
+            <span class="title-span">оно</span>
+            <span class="title-span title-center">тебе</span>
+            <span class="title-span title-right">надо</span>
+          </h1>
+          <div class="description">
+            <p class="subtitle">Аукцион вещей, в которые никто не верил</p>
+            <button class="button description">сделать ставку</button>
+          </div>
+        </cover>
+      </section>
       <section class="lots">
-        <h2></h2>
-        <ul>
-          <li>
-            <a><article class="overlay">
-
+        <h2 class="section-title">лоты</h2>
+        <ul class="cards__list">
+          <li class="cards__item">
+            <a class="card__link"><article class="card film">
+              <h3 class="card-title">Фильм режиссёра, который бросил киношколу</h3>
+              <p class="card-info">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
             </article></a>
           </li>
-          <li><a>
-            <article class="overlay">
-
+          <li class="cards__item">
+            <a class="card__link"><article class="card book">
+              <h3 class="card-title">Книга, где описан один скучный день из жизни рекламного агента</h3>
+              <p class="card-info">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
             </article></a>
           </li>
-          <li>
-            <a><article class="overlay">
-
+          <li class="cards__item">
+            <a class="card__link"><article class="card picture">
+              <h3 class="card-title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
+              <p class="card-info">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
             </article></a>
           </li>
         </ul>
-        <a></a>
+        <a class="lots__more" href="#0">посмотреть больше</a>
       </section>
       <section class="about">
         <div></div>
