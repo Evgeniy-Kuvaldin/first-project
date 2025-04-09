@@ -18,10 +18,10 @@ html {
   list-style: none;
 }
 
-.header__menu-list {
+.header-menu-list {
   display: flex;
   flex-direction: row;
-  gap: 34px;
+  gap: 33px;
   margin: 133px 0 138px;
   list-style: circle;
 }
@@ -30,16 +30,19 @@ html {
   list-style: none;
 }
 
-.header__logo {
+.header-logo {
   display: flex;
-  min-width: 135px;
-  min-height: 118px;
+  margin-bottom: 4px;
+  min-width: 137px;
+  min-height: 119px;
 }
+
 .address {
   justify-self: end;
   width: 240px;
+  margin-bottom: 4px;
   font-style: normal;
-  line-height: 1.35;
+  line-height: 1.34;
   list-style: none;
 }
 
@@ -125,12 +128,17 @@ html {
   text-transform: uppercase;
 }
 
-.cards__list {
-  display: flex;
-  flex-direction: row;
+.cards-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 25px;
   margin-top: 27px;
   list-style: none;
+}
+
+.card-link {
+  display: inline-block;
+  text-decoration: none;
 }
 
 .card {
@@ -166,13 +174,14 @@ html {
 .card-info {
   display: flex;
   color: white;
-  line-height: 120%;
+  line-height: 1.2;
 }
 
 .card-title {
   font-weight: bold;
   font-size: 22px;
   text-decoration: underline;
+  text-decoration-skip-ink: none;
   text-transform: uppercase;
 }
 
@@ -180,7 +189,7 @@ html {
   font-size: 20px;
 }
 
-.lots__more {
+.lots-more {
   display: block;
   margin-top: 30px;
   margin-left: 40px;
@@ -194,7 +203,7 @@ html {
   grid-template-columns: 312px auto;
   min-height: 595px;
   margin: 0 24px 0;
-  padding: 35px 0 13px 47px;
+  padding: 34px 0 12px 47px;
 }
 
 .logo-white {
@@ -213,8 +222,6 @@ html {
 }
 
 .about-title {
-  display: flex;
-  align-items: center;
   margin: 100px 0 0;
   line-height: 120%;
 }
@@ -224,16 +231,16 @@ html {
   flex-direction: column;
   gap: 24px;
   margin: 100px 0 13px;
+  padding-right: 5px;
   font-size: 20px;
+  line-height: 120%;
 }
-
 
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 180px;
-  justify-content: space-between;
-  margin: 154px 0 0;
+  margin: 156px 0 0;
   padding: 0 50px;
   font-size: 18px;
   text-underline-position: under;
